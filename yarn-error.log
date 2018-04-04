@@ -2,13 +2,13 @@ Arguments:
   /usr/bin/node /usr/share/yarn/bin/yarn.js start
 
 PATH: 
-  /home/INSTINCTOOLS/afonua94/bin:/home/INSTINCTOOLS/afonua94/.local/bin:/home/INSTINCTOOLS/afonua94/bin:/home/INSTINCTOOLS/afonua94/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/INSTINCTOOLS/afonua94/.npm-packages/bin:/home/INSTINCTOOLS/afonua94/android-sdk-linux/tools:/home/INSTINCTOOLS/afonua94/android-sdk-linux/platform-tools:/home/INSTINCTOOLS/afonua94/.npm-packages/bin:/home/INSTINCTOOLS/afonua94/android-sdk-linux/tools:/home/INSTINCTOOLS/afonua94/android-sdk-linux/platform-tools
+  /home/INSTINCTOOLS/afonua94/bin:/home/INSTINCTOOLS/afonua94/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/INSTINCTOOLS/afonua94/.npm-packages/bin:/home/INSTINCTOOLS/afonua94/android-sdk-linux/tools:/home/INSTINCTOOLS/afonua94/android-sdk-linux/platform-tools
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  8.10.0
+  8.11.1
 
 Platform: 
   linux x64
@@ -23,12 +23,19 @@ npm manifest:
       "test": "jest"
     },
     "dependencies": {
+      "axios": "^0.18.0",
       "react": "^16.3.0-alpha.1",
-      "react-native": "0.54.4"
+      "react-native": "0.54.4",
+      "react-navigation": "^1.5.9",
+      "react-redux": "^5.0.7",
+      "react-spinners": "^0.3.1",
+      "redux": "^3.7.2",
+      "redux-saga": "^0.16.0"
     },
     "devDependencies": {
       "babel-jest": "22.4.3",
       "babel-preset-react-native": "4.0.0",
+      "flow-bin": "^0.69.0",
       "jest": "22.4.3",
       "react-test-renderer": "^16.3.0-alpha.1"
     },
@@ -5517,7 +5524,7 @@ Trace:
   Exit code: 11
   Command: sh
   Arguments: -c node node_modules/react-native/local-cli/cli.js start
-  Directory: /home/INSTINCTOOLS/afonua94/test
+  Directory: /home/INSTINCTOOLS/afonua94/Documents/job/react-native-app
   Output:
   
       at ProcessTermError.MessageError (/usr/share/yarn/lib/cli.js:186:110)

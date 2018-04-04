@@ -1,11 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View} from 'react-native';
 
-
-
-
-
-export class Greeting extends Component{
+export default class Greeting extends Component{
 
     constructor(props){
         super(props);
@@ -20,7 +16,6 @@ export class Greeting extends Component{
 
 
     render(){
-        debugger;
         const display =  this.state.showText ? 'Hello ' + this.props.name + ' !' : '******';
 
         return(

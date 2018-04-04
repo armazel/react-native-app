@@ -1,4 +1,4 @@
-#Tue Apr 03 11:32:23 MSK 2018
-base.0=/home/INSTINCTOOLS/afonua94/test/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Tue Apr 03 19:07:06 MSK 2018
+base.0=/home/INSTINCTOOLS/afonua94/Documents/job/react-native-app/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/home/INSTINCTOOLS/afonua94/test/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/home/INSTINCTOOLS/afonua94/Documents/job/react-native-app/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

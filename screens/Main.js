@@ -5,9 +5,8 @@
  */
 
 import React, { Component } from 'react';
-import {Greeting} from './../components/Greeting'
-import Second from './../screens/Second';
-import MyScence from './../screens/MyScence';
+import Greeting from "../components/Greeting";
+import Second from './Second';
 import {
     Platform,
     StyleSheet,
@@ -62,8 +61,8 @@ export default class Main extends Component<Props> {
                     />
                 </View>
 
-                <View style={{flex: 1, height:'100%', backgroundColor: 'powderblue', justifyContent:'center', alignItems:'center'}}>
-                    <Greeting name="Egor123"></Greeting>
+                <View style={{flex: 1, height:'100%', backgroundColor: 'red', justifyContent:'center', alignItems:'center'}}>
+                    <Greeting name="Egor12345"></Greeting>
                 </View>
                 <View style={{flex: 2, height:'50%', backgroundColor: 'skyblue',justifyContent:'center', alignItems:'center'}} >
                     <Greeting name="Anton"></Greeting>
